@@ -1,0 +1,62 @@
+        body{
+			background-image: url(pxx.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+		}
+		h1{
+			color: blue;
+            font-weight: bold;
+		}
+		button{
+			color: rgb(2, 69, 136);
+            font-style: italic;
+            text-decoration: cornsilk dotted;
+            border-style: none;
+            BORDER-WIDTH: 5px;
+            border-color: cornsilk;
+            border-radius: 6px;
+            background-color: gray;
+        }
+        p{
+            font-family:Cherry Bomb One ;
+            color: rgb(17, 0, 255);
+            font-size: larger;
+            
+        }
+        li{
+            font-family: Cherry Bomb One;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+            background-color: aqua;
+        }
+        li a{
+            float: left;
+            display: block;
+            color: blanchedalmond;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            border-right: 1px solid white ;
+            min-width: 60px;
+        }
+        li a:hover{
+        background-color: aquamarine;
+        animation: myGLOWANIMATION;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        }
+
+        @keyframes myGLOWANIMATION{
+            50% {text-shadow: 0PX 0PX 12PX rgb(3, 3, 3) ;}
+        }    
+        label{
+            font-family:Cherry Bomb One;
+            
+
+        }
